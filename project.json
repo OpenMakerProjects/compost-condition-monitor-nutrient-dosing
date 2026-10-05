@@ -1,0 +1,21 @@
+{
+  "id": 186,
+  "title": "Compost Condition Monitor Nutrient Dosing",
+  "repository_slug": "compost-condition-monitor-nutrient-dosing",
+  "category": "Smart Agriculture",
+  "platform": "Arduino Mega",
+  "platform_family": "arduino",
+  "difficulty": "Advanced",
+  "estimated_hours": 44,
+  "connectivity": "RS-485",
+  "components": [
+    "EC sensor",
+    "SHT31",
+    "LoRa module"
+  ],
+  "scope": "Build a smart agriculture prototype that uses EC sensor, SHT31, LoRa module to dose nutrients using measured conditions. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Nutrient Dosing demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/compost-condition-monitor-nutrient-dosing/compost-condition-monitor-nutrient-dosing.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
